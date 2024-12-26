@@ -1,0 +1,79 @@
+13:17:17   counter zero
+13:17:17   counter: 0
+13:17:17   function: increment
+13:17:17   counter: 1
+13:17:27   counter: 6855
+13:17:37   counter: 13773
+13:17:47   counter: 18316
+
+13:17:47   increment result:
+13:17:47   counter: 18316
+13:17:47   time: 30s
+
+
+13:17:57   counter zero
+13:17:57   counter: 0
+13:17:57   function: optimistic
+13:17:57   counter: 2
+13:18:07   counter: 7118
+13:18:17   counter: 14054
+13:18:27   counter: 20536
+13:18:37   counter: 27686
+13:18:47   counter: 33872
+13:18:57   counter: 41013
+13:19:07   counter: 46967
+13:19:17   counter: 53483
+13:19:27   counter: 59277
+13:19:37   counter: 64996
+13:19:47   counter: 70500
+13:19:57   counter: 77520
+13:20:07   counter: 84626
+13:20:17   counter: 91912
+13:20:27   counter: 99387
+13:20:37   counter: 100000
+
+13:20:37   optimistic result:
+13:20:37   counter: 100000
+13:20:37   time: 159s
+
+
+13:20:52   counter zero
+13:20:52   counter: 0
+13:20:52   function: pessimistic
+13:20:52   counter: 0
+13:21:02   counter: 5095
+13:21:12   counter: 10211
+13:21:22   counter: 15323
+13:21:32   counter: 20459
+13:21:42   counter: 25566
+13:21:52   counter: 30657
+13:22:02   counter: 35787
+13:22:12   counter: 40870
+13:22:22   counter: 45992
+13:22:32   counter: 51096
+13:22:42   counter: 56187
+13:22:52   counter: 61271
+13:23:02   counter: 66352
+13:23:12   counter: 71432
+13:23:22   counter: 76526
+13:23:32   counter: 81639
+13:23:42   counter: 86715
+13:23:52   counter: 91811
+13:24:02   counter: 96890
+13:24:12   counter: 100000
+
+13:24:12   pessimistic result:
+13:24:12   counter: 100000
+13:24:12   time: 199s
+
+
+13:24:15   counter zero
+13:24:15   counter: 0
+13:24:15   function: atomic
+13:24:15   counter: 10
+13:24:25   counter: 83539
+13:24:35   counter: 100000
+
+13:24:35   atomic result:
+13:24:35   counter: 100000
+13:24:35   time: 20s
